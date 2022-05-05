@@ -1,0 +1,19 @@
+import java.lang.*;
+public class A5
+{
+	public static void main(String A[])
+	{
+		System.out.println("A[]陣列長度="+A.length);
+		System.out.println("姓名:"+A[0]);
+		System.out.println("國文成績="+A[1]);
+		System.out.println("英文成績="+A[2]);
+		System.out.println("數學成績="+A[3]);
+		System.out.println("總分="+(Integer.parseInt(A[1])+Integer.parseInt(A[2])+Integer.parseInt(A[3])));
+		System.out.println("平均成績="+(Integer.parseInt(A[1])+Integer.parseInt(A[2])+Integer.parseInt(A[3]))/ 3);
+		int n1=Integer.parseInt(A[1]);
+		int n2=Integer.parseInt(A[2]);
+		int n3=Integer.parseInt(A[3]);
+		System.out.println("\n國文成績="+n1+"\n英文成績="+n2+"\n數學成績="+n3+"\n總分="+(n1+n2+n3)+"\n平均分數="+(n1+n2+n3)/3);
+		
+	}
+}
